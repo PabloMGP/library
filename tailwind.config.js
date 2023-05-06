@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./*.html'],
+  content: ['./*.html', './*.js'],
   theme: {
     extend: {
       colors: {
@@ -8,9 +8,8 @@ module.exports = {
         secondaryColor: '#313338',
         fillColor: '#5865f2',
         textColor: '#dbd8db',
-      }
+      },
     },
   },
   plugins: [],
-}
-
+};

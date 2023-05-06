@@ -26,8 +26,14 @@
             <label for='pages' class='text-textColor font-bold mt-3'>Number of pages</label>
             <input type='number' id='pages' name='pages'>
 
-            <button type='button' id='add-book' class='text-textColor font-bold bg-secondaryColor mt-5 rounded-full transition 
-                ease-in duration-400 p-2 hover:bg-primaryColor hover:shadow-lg'>
+            <label for='status' class='text-textColor font-bold mt-3'>Read Status</label>
+            <select name='status' id='status'>
+                <option value='Read'>Read</option>
+                <option value='Unread'>Unread</option>
+            </select>
+
+            <button type='submit' id='add-book' class='text-textColor font-bold bg-secondaryColor mt-5 rounded-full transition 
+                ease-in duration-400 p-2 hover:bg-primaryColor hover:scale-110'>
                 Add Book</button>
         </form>
 
